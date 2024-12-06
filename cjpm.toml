@@ -1,0 +1,13 @@
+[dependencies]
+ xmlstream = { git = "https://gitcode.com/Cangjie-TPC/xml_stream", branch = "develop" }
+[package]
+  cjc-version = "0.57.4"
+  compile-option = ""
+  description = "nothing here"
+  link-option = ""
+  name = "webdav"
+  output-type = "executable"
+  src-dir = ""
+  target-dir = ""
+  version = "1.0.0"
+  package-configuration = {}

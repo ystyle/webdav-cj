@@ -1,0 +1,4 @@
+version = 0
+
+[requires]
+  xmlstream = {branch = "develop", commitId = "f6e3801ee427e6efa22a0cf55bca76ca3db168a8", git = "https://gitcode.com/Cangjie-TPC/xml_stream"}
