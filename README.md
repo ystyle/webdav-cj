@@ -1,5 +1,5 @@
 # webdav-cj
-仓颉Webdav操作客户端库
+仓颉Webdav操作客户端库， 支持仓颉公测版(0.53)
 
 ### 安装依赖
 ```toml
@@ -21,7 +21,7 @@ main():Unit {
 ```
 
 ### api
-- `WebdavClient(username:String, password:String)`: 初始化Webdav客户端
+- `WebdavClient(username:String, password:String)`: 初始化Webdav客户端, 目前只支持basic auth认证
   - `public func setHeader(key:String, value:String)`: 设置header
   - `public func interceptor(interceptor: (method: String, req: HttpRequest) -> Unit)`: 设置公共处理器
   - `public func setTimeout(timeout: Duration): Unit`: 设置超时时间
