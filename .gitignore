@@ -3,3 +3,4 @@
 .cjpm-history
 unittest
 target
+*.cj.macrocall

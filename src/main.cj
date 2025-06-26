@@ -1,5 +1,7 @@
 package webdav
 
+import std.collection.HashMap
+
 main():Unit {
     let client = WebdavClient("http://localhost:6065", "admin", "admin")
     client.connect()

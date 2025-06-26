@@ -5,7 +5,7 @@ import std.time.{DateTime, DateTimeFormat}
 import std.fs.Path
 import std.collection.ArrayList
 import std.convert.*
-import std.io.{ByteArrayStream, InputStream, BufferedInputStream, SeekPosition}
+import std.io.{ByteArrayStream, InputStream, BufferedInputStream, SeekPosition, readToEnd}
 
 public class PathException <: Exception {
     init(op: String, path: String, status: UInt16) {
